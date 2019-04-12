@@ -1,8 +1,8 @@
-# Quiz App with React and Django
+# Template for Web App with React and Django
 
-A quiz app built with React and Django!
+An initial template for the React app integrated with Django.
 
-
+I created this initial app because integrating React app with Django takes up a lot of time and using this template can save a lot of hours.
 
 ## Installation Instructions
 
@@ -37,11 +37,6 @@ npm install
 npm run watch
 ```
 
-- Inside the `frontend/src/APIKeys` folder, specity your GooglePlaces' API key and OpenWeatherMap's API key in the respective files.
-    - Instructions to generate API keys:
-        - [To setup API key for Google Places API](https://www.youtube.com/embed/Rpzp0yCAmq4?start=35)
-        - [Generate OpenWeatherMap API key after signing up](https://home.openweathermap.org/api_keys)
-
 - Now, open up a new terminal, go inside the repo and run following commands:
 
 ```
@@ -53,4 +48,4 @@ nodemon --exec python manage.py runserver
 ```
 
 
-
+<sub>Reference: [Hybrid app model, to integrate React app with Django](https://fractalideas.com/blog/making-react-and-django-play-well-together-hybrid-app-model/)</sub>
